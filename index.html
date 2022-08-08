@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetinho Fellas</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/animacoes.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+   
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">Character Selector</h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="src/imagens/Knight.png" alt="Knight" id="personagem-jogador-1"> 
+                <div class="nome1"> 
+                    <h2 id = 'nome-jogador-1'>Knight</h2>
+                </div>
+            </div>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="Knight"
+                 data-name="Knight">
+                <span class="tag">1P</span>
+                <img src="./src/imagens/Knight_icon.png" alt="Personagem Knight">
+                </li>
+
+                <li class="personagem" id="Hornet"
+                 data-name="Hornet">
+                <span class="tag">1P</span>
+                <img src="./src/imagens/Hornet_icon.png" alt="Personagem Hornet">
+                </li>
+
+                <li class="personagem" id="Quirrel"
+                 data-name="Quirrel">
+                <span class="tag">1P</span>
+                <img src="./src/imagens/Quirrel_icon.png" alt="Personagem Quirrel">
+                </li>
+
+                <li class="personagem" id="Cornifer"
+                 data-name="Cornifer">
+                <span class="tag">1P</span>
+                <img src="./src/imagens/Cornifer_icon.png" alt="Personagem Cornifer">
+                </li>
+
+                <li class="personagem" id="Zote"
+                 data-name="Zote">
+                <span class="tag">1P</span>
+                <img src="./src/imagens/zote_icon.png" alt="Personagem Zote">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="Grimm"
+                 data-name="Grimm">
+                <span class="tag">2P</span>
+                <img src="./src/imagens/Grimm_icon.png" alt="Personagem Grimm">
+                </li>
+
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <div class="personagem-grande personagem-jogador-2">
+                    <img src="./src/imagens/Grimm.png" alt="" id="personagem-jogador-2"> 
+                    <div class="nome2"> 
+                        <h2>Grimm</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
